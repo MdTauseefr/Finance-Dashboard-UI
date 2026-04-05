@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finance Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Finance Dashboard</h1>
+
+    <!-- Role Switch -->
+    <select id="roleSelect">
+      <option value="viewer">Viewer</option>
+      <option value="admin">Admin</option>
+    </select>
+  </header>
+
+  <!-- Summary Cards -->
+  <section class="cards">
+    <div class="card">
+      <h3>Total Balance</h3>
+      <p id="balance">₹0</p>
+    </div>
+    <div class="card">
+      <h3>Income</h3>
+      <p id="income">₹0</p>
+    </div>
+    <div class="card">
+      <h3>Expenses</h3>
+      <p id="expense">₹0</p>
+    </div>
+  </section>
+
+  <!-- Insights -->
+  <section class="insights">
+    <h2>Insights</h2>
+    <p id="topCategory"></p>
+    <p id="monthlyCompare"></p>
+  </section>
+
+  <!-- Add Transaction (Admin only) -->
+  <section id="addTransaction" class="hidden">
+    <h2>Add Transaction</h2>
+    <input type="text" id="desc" placeholder="Description">
+    <input type="number" id="amount" placeholder="Amount">
+    <select id="type">
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+    <input type="text" id="category" placeholder="Category">
+    <button onclick="addTransaction()">Add</button>
+  </section>
+
+  <!-- Filters -->
+  <section class="filters">
+    <input type="text" id="search" placeholder="Search...">
+    <select id="filterType">
+      <option value="all">All</option>
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+  </section>
+
+  <!-- Transactions -->
+  <section>
+    <h2>Transactions</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Amount</th>
+          <th>Category</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody id="transactionList"></tbody>
+    </table>
+  </section>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
