@@ -7,6 +7,10 @@ This project helps users track financial activity, manage transactions, and gain
 
 
 
+
+https://github.com/user-attachments/assets/8f955ff0-2ae1-493d-907d-179b55d40c36
+
+
 📌 Features
 💰 Dashboard Overview
 Displays Total Balance, Income, and Expenses
@@ -58,21 +62,6 @@ git clone https://github.com/your-username/finance-dashboard.git
 
 Simply open index.html in your browser.
 
-✨ Future Improvements
-📊 Add charts (Chart.js)
-🌙 Dark mode
-💾 Local storage (data persistence)
-📁 Export data (CSV/JSON)
-🔄 Advanced filtering & sorting
-🎯 Purpose
 
-This project was created to demonstrate:
 
-Frontend development skills
-UI/UX design thinking
-JavaScript logic building
-Clean and responsive layouts
-🙌 Author
 
-Md Tauseef Raja
-Frontend Developer
