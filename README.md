@@ -5,8 +5,7 @@ This project helps users track financial activity, manage transactions, and gain
 
 🚀 Live Demo
 
-(Add your deployed link here if available)
-👉 https://your-live-link.com
+
 
 📌 Features
 💰 Dashboard Overview
