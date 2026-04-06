@@ -57,7 +57,7 @@ finance-dashboard/
 │── data.js
 ⚙️ Getting Started
 1. Clone the repository
-git clone https://github.com/your-username/finance-dashboard.git
+git clone https://github.com/MdTauseefr/Finance-Dashboard-UI
 2. Open the project
 
 Simply open index.html in your browser.
